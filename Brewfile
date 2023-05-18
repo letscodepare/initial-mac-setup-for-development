@@ -11,21 +11,16 @@ if OS.mac?
     # Applications
     cask "kitty" # a better terminal emulator
     cask "imageoptim" # a tool to optimize images
-    cask "1password/tap/1password-cli"
-    cask "iterm2"
-    cask "alfred"
     cask "rectangle"
     cask "alt-tab"
-    cask "firefox-developer-edition"
     cask "app-cleaner"
     cask "android-file-transfer"
     cask "keepingyouawake"
     cask "discord"
-    cask "vlc"
     cask "keka"
     cask "kap"
-    cask "visual-studio-code"
     cask "insomnia"
+    cask "sequel-ace"
 
     # Fonts
 
@@ -54,3 +49,4 @@ brew "vim" # Vim (latest)
 brew "wget" # internet file retriever
 brew "z" # switch between most used directories
 brew "zoxide" # switch between most used directories
+brew "pyenv"
